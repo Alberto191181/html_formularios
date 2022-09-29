@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Tarea HTML_Formularios de [Su nombre]"</title>
+</head>
+<body>
+    <h1>Formulario LarnU</h1>
+<div>
+  <form>
+
+
+      <legend>Que idioma hablas?</legend>
+        <input class="idiomainput" type="radio" name="idioma">Inglés
+        <input class="idiomainput" type="radio" name="idioma">Alemán
+        <input class="idiomainput" type="radio" name="idioma">Francés
+    <!-- select -->
+    <class="conector">
+      <legend>conector</legend>
+      <select class="conector" name="conector">
+        <option value="usb">USB</option>
+        <option value="paralelo">Paralelo</option>
+        <option value="ps2">PS2</option>
+      </select>
+    </class=>
+    <!-- textos  -->
+    <fieldset class="textos">
+      <legend>como te llamas?</legend>
+        <label>Nombre<input type="text"></label><br>
+        <label>Apellido<input type="text"></label>
+    </fieldset>
+    <!-- sexos -->
+    <fieldset class="sexo">
+      <legend>Tu sexo es?</legend>
+      <select class="sexo_select" multiple name="sexo">
+        <option value="sexohombre">Hombre</option>
+        <option value="sexomujer">Mujer</option>
+      </select>
+    </fieldset>
+    <!-- fecha -->
+    <fieldset class="fecha">
+      <legend>Fecha de nacimiento</legend>
+      <input type="date" value="2022-09-28">
+    </fieldset>
+    <div class="button">
+      <button class="enviar" type="submit" onClick="alert('¡Gracias, Formulario Enviado!')">Enviar</button>
+    </div>
+  </form>
+  <div class="button">
+    <a href="/html_formularios/index2.html"><button class="sig_form">Siguiente</button></a>
+  </div>
+</div>
+</body>
+</html>
